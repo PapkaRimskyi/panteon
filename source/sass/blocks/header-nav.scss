@@ -1,0 +1,45 @@
+.header-nav {
+  margin: $margin-auto;
+  margin-bottom: 67px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav__project {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-bottom: 7px;
+  width: 96px;
+  line-height: 13px;
+  color: #ffffff;
+  background-image: url("../img/panteon-logo.png");
+  background-repeat: no-repeat;
+  background-position: 1px 4px;
+}
+
+.header-nav__project-name {
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.header-nav__project-name--font-weight {
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.header-nav__menu-link {
+  padding-top: 2px;
+  padding-right: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.header-nav__menu {
+  display: none;
+}

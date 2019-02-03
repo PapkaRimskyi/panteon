@@ -1,0 +1,72 @@
+.header-intro {
+  margin: $margin-auto;
+  width: 235px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-intro__destination {
+  margin: 0;
+  margin-bottom: 38px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.header-intro__text {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.header-intro__text--font-weight {
+  font-weight: 100;
+}
+
+.header-intor__text--font-size {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: 2px;
+}
+
+.header-intro__video-container {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.header-intro__play-video {
+  position: absolute;
+  display: flex;
+  left: 38%;
+  top: 33%;
+}
+
+.header-intro__video-container::after {
+  position: absolute;
+  content: "Первый город на\00A0планете Марс недалеко от горы Олимп";
+  top: 94%;
+  right: 8px;
+  width: 115px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffcfdf;
+}
+
+.header-intro__video-preview {
+  width: 214px;
+  height: 138px;
+  display: flex;
+  opacity: 0.35;
+}
+
+.header-intro__circle {
+  opacity: 0.35;
+}
+
+.header-intro__scrool-button {
+  margin-bottom: 21px;
+}

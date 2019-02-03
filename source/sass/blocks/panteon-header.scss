@@ -1,0 +1,16 @@
+.panteon-header {
+  width: 320px;
+  background-image: url("../img/filter320px.jpg");
+  background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    width: 765px;
+    background-image: url("../img/filter765px.jpg");
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100%;
+    max-width: 1600px;
+    background-image: url("../img/filter1600px.jpg");
+  }
+}
