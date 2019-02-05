@@ -26,7 +26,7 @@
   font-weight: 100;
 }
 
-.header-intor__text--font-size {
+.header-intro__text--font-size {
   font-weight: 900;
   font-size: 70px;
   line-height: 70px;
@@ -36,6 +36,7 @@
 .header-intro__video-container {
   margin-bottom: 80px;
   position: relative;
+  box-shadow: 0 25px 38px 0 rgba(0, 0, 0, 0.48);
 }
 
 .header-intro__play-video {
@@ -43,6 +44,10 @@
   display: flex;
   left: 38%;
   top: 33%;
+}
+
+.header-intor__watch-video {
+  display: none;
 }
 
 .header-intro__video-container::after {
@@ -69,4 +74,173 @@
 
 .header-intro__scrool-button {
   margin-bottom: 21px;
+}
+
+@media (min-width: $tablet-width) {
+  .header-intro {
+    position: relative;
+    padding-bottom: 10px;
+    width: 523px;
+  }
+
+  .header-intro::before,
+  .header-intro::after {
+    position: absolute;
+    content: "Пантеон";
+    left: 48%;
+    top: 30%;
+    width: 15px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #ff9ebd;
+    opacity: 0.2;
+    word-wrap: break-word;
+    text-transform: uppercase;
+  }
+
+  .header-intro::after {
+    left: 58%;
+    content: "Олимп";
+    opacity: 0.6;
+  }
+
+  .header-intro__destination {
+    margin-bottom: 48px;
+    line-height: 109px;
+  }
+
+  .header-intro__text {
+    font-size: 30px;
+  }
+
+  .header-intro__text--font-weight {
+    letter-spacing: 1px;
+  }
+
+  .header-intro__text--padding-right {
+    padding-right: 8px;
+  }
+
+  .header-intro__text--font-size {
+    padding-right: 12px;
+    font-size: 157px;
+  }
+
+  .header-intro__video-container {
+    margin-right: 8px;
+    margin-bottom: 60px;
+    width: 515px;
+  }
+
+  .header-intro__video-container::after {
+    top: 88%;
+    right: 35px;
+  }
+
+  .header-intro__video-preview {
+    width: 515px;
+    height: 258px;
+  }
+
+  .header-intro__play-video {
+    width: 191px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 32%;
+    top: 40%;
+    text-decoration: none;
+  }
+
+  .header-intor__watch-video {
+    margin: 0;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    display: block;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .header-intro__svg-button {
+    width: 75px;
+    height: 75px;
+  }
+
+  .header-intro__circle {
+    r: 30;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .header-intro {
+    width: 100%;
+    max-width: 1140px;
+  }
+
+  .header-intro::before {
+    left: 117px;
+    top: 20px;
+  }
+
+  .header-intro::after {
+    left: 168px;
+    top: 20px;
+  }
+
+  .header-intro__destination {
+    margin-bottom: 5px;
+    width: 620px;
+  }
+
+  .header-intro__text {
+    font-size: 37px;
+  }
+
+  .header-intro__text--padding-right {
+    padding-right: 18px;
+    padding-left: 10px;
+  }
+
+  .header-intro__text--font-size {
+    padding-right: 20px;
+    font-size: 195px;
+    line-height: 88px;
+    letter-spacing: 5px;
+  }
+
+  .header-intro__video-container {
+    margin-right: 13px;
+    margin-bottom: 22px;
+    width: 582px;
+  }
+
+  .header-intro__video-container::before {
+    position: absolute;
+    content: "";
+    top: 142px;
+    right: -38px;
+    width: 118px;
+    height: 2px;
+    background-color: #ff9ebd;
+  }
+
+  .header-intro__video-container::after {
+    top: 110px;
+    right: -177px;
+  }
+
+  .header-intro__video-preview {
+    width: 582px;
+    height: 292px;
+  }
+
+  .header-intro__play-video {
+    left: 34%;
+    top: 41%;
+  }
+
+  .header-intro__scrool-button {
+    align-self: flex-start;
+  }
 }

@@ -1,16 +1,32 @@
 .panteon-header {
   width: 320px;
+  background-repeat: no-repeat;
+}
+
+.panteon-header__container {
   background-image: url("../img/filter320px.jpg");
   background-repeat: no-repeat;
+}
 
-  @media (min-width: $tablet-width) {
+@media (min-width: $tablet-width) {
+  .panteon-header {
     width: 765px;
-    background-image: url("../img/filter765px.jpg");
   }
 
-  @media (min-width: $desktop-width) {
+  .panteon-header__container {
+    background-image: url("../img/filter765px.jpg");
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .panteon-header {
     width: 100%;
     max-width: 1600px;
+  }
+
+  .panteon-header__container {
+    padding-bottom: 30px;
     background-image: url("../img/filter1600px.jpg");
+    background-position: center top;
   }
 }
