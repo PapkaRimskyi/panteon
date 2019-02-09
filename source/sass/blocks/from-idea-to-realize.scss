@@ -1,0 +1,183 @@
+.from-idea-to-realize {
+  margin-bottom: 189px;
+}
+
+.from-idea-to-realize__container {
+  margin: 0 auto;
+  width: 290px;
+}
+
+.from-idea-to-realize__headline {
+  margin-top: 5px;
+  width: 252px;
+  font-size: 36px;
+  line-height: 44px;
+  color: #e12457;
+}
+
+.from-idea-to-realize__who-is-elon {
+  margin-top: 0;
+  margin-bottom: 29px;
+}
+
+.from-idea-to-realize__about-elon {
+  margin-top: 0;
+}
+
+.from-idea-to-realize__about-elon--margin-photo {
+  margin-bottom: 65px;
+}
+
+.from-idea-to-realize__elon-photo-container {
+  position: relative;
+  margin: 0 auto;
+  margin-left: 42px;
+  margin-bottom: 23px;
+  width: 165px;
+}
+
+.from-idea-to-realize__elon-photo-container::before {
+  position: absolute;
+  content: "";
+  top: -33px;
+  left: 34px;
+  width: 146px;
+  height: 169px;
+  border: 10px solid #e12457;
+  z-index: -1;
+}
+
+.from-idea-to-realize__elon-photo {
+  display: flex;
+}
+
+.from-idea-to-realize__elon-mask-quote {
+  position: relative;
+  margin: 0;
+  margin-bottom: 37px;
+  font-size: 18px;
+  color: #e12457;
+}
+
+.from-idea-to-realize__elon-mask-quote::before,
+.from-idea-to-realize__elon-mask-quote::after {
+  position: absolute;
+  content: "،";
+  top: -26px;
+  left: -13px;
+  width: 10px;
+  height: 20px;
+  font-size: 36px;
+}
+
+.from-idea-to-realize__elon-mask-quote::after {
+  left: -3px;
+}
+
+.from-idea-to-realize__about-elon--text-indent {
+  margin-bottom: 11px;
+  text-indent: 4px;
+}
+
+@media (min-width: $tablet-width) {
+  .from-idea-to-realize {
+    margin-bottom: 79px;
+  }
+
+  .from-idea-to-realize__container {
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .from-idea-to-realize__headline {
+    margin-bottom: 48px;
+    width: 533px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .from-idea-to-realize__who-is-elon {
+    margin-bottom: 16px;
+    letter-spacing: 0.1px;
+  }
+
+  .from-idea-to-realize__about-elon--margin-photo {
+    margin: 8px 20px 24px 0;
+    margin-right: 20px;
+    margin-bottom: 0;
+    width: 500px;
+  }
+
+  .from-idea-to-realize__elon-photo-container {
+    top: 48px;
+    margin: 0;
+  }
+
+  .from-idea-to-realize__elon-mask-quote {
+    margin-bottom: 24px;
+    width: 500px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .from-idea-to-realize {
+    margin-bottom: 72px;
+  }
+
+  .from-idea-to-realize__container {
+    position: relative;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .from-idea-to-realize__headline {
+    margin-bottom: 46px;
+    width: 664px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .from-idea-to-realize__who-is-elon {
+    width: 705px;
+    font-size: 24px;
+  }
+
+  .from-idea-to-realize__about-elon {
+    width: 700px;
+  }
+
+  .from-idea-to-realize__elon-photo-container {
+    position: absolute;
+    top: 154px;
+    right: 52px;
+    width: 325px;
+    order: 5;
+  }
+
+  .from-idea-to-realize__elon-photo-container::before {
+    top: -46px;
+    left: 52px;
+    width: 305px;
+    height: 352px;
+  }
+
+  .from-idea-to-realize__about-elon--margin-photo {
+    margin-bottom: 33px;
+  }
+
+  .from-idea-to-realize__elon-mask-quote {
+    margin-bottom: 39px;
+    width: 683px;
+  }
+
+  .from-idea-to-realize__about-elon--text-indent {
+    margin-bottom: 12px;
+  }
+
+  .from-idea-to-realize__about-elon--desktop-width {
+    width: 598px;
+  }
+}

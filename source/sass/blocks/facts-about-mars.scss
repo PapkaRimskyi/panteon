@@ -1,0 +1,17 @@
+.facts-about-mars {
+  height: 172px;
+  background-color: #fff5f8;
+  overflow: hidden;
+}
+
+@media (min-width: $tablet-width) {
+  .facts-about-mars {
+    height: 209px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .facts-about-mars {
+    height: 212px;
+  }
+}

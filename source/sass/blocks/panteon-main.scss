@@ -1,0 +1,16 @@
+.panteon-main {
+  width: 320px;
+}
+
+@media (min-width: $tablet-width) {
+  .panteon-main {
+    width: 765px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .panteon-main {
+    width: 100%;
+    max-width: 1600px;
+  }
+}
