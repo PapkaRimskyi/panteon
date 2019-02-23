@@ -10,7 +10,8 @@
 .header-intro__destination {
   margin: 0;
   margin-bottom: 38px;
-  color: #ffffff;
+  width: 235px;
+  color: $white-color;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -27,8 +28,8 @@
 }
 
 .header-intro__text--font-size {
-  font-weight: 900;
   font-size: 70px;
+  font-weight: 900;
   line-height: 70px;
   letter-spacing: 2px;
 }
@@ -36,18 +37,6 @@
 .header-intro__video-container {
   margin-bottom: 80px;
   position: relative;
-  box-shadow: 0 25px 38px 0 rgba(0, 0, 0, 0.48);
-}
-
-.header-intro__play-video {
-  position: absolute;
-  display: flex;
-  left: 38%;
-  top: 33%;
-}
-
-.header-intor__watch-video {
-  display: none;
 }
 
 .header-intro__video-container::after {
@@ -61,19 +50,57 @@
   color: #ffcfdf;
 }
 
+.header-intro__play-video {
+  position: absolute;
+  display: flex;
+  left: 38%;
+  top: 33%;
+}
+
+.header-intro__play-video:hover {
+  opacity: 0.2;
+}
+
+.header-intro__play-video:active {
+  opacity: 0.8;
+}
+
+.header-intro__watch-video {
+  display: none;
+}
+
 .header-intro__video-preview {
   width: 214px;
   height: 138px;
   display: flex;
   opacity: 0.35;
-}
-
-.header-intro__circle {
-  opacity: 0.35;
+  filter: brightness(40%);
 }
 
 .header-intro__scrool-button {
   margin-bottom: 21px;
+}
+
+.header-intro__scrool-button:hover {
+  margin-bottom: 21px;
+}
+
+.header-intro__svg-button:hover {
+  box-shadow: 1px -2px 28px 0 #a0327e;
+  border-radius: 50%;
+}
+
+.header-intro__svg-button:hover .header-intro__circle {
+  fill: #a97699;
+}
+
+.header-intro__svg-button:active {
+  box-shadow: 1px -2px 28px 0 #a0327e inset;
+  border-radius: 50%;
+}
+
+.header-intro__circle {
+  opacity: 0.35;
 }
 
 @media (min-width: $tablet-width) {
@@ -107,6 +134,7 @@
 
   .header-intro__destination {
     margin-bottom: 48px;
+    width: 523px;
     line-height: 109px;
   }
 
@@ -131,6 +159,7 @@
     margin-right: 8px;
     margin-bottom: 60px;
     width: 515px;
+    box-shadow: 0 25px 38px 0 rgba(0, 0, 0, 0.48);
   }
 
   .header-intro__video-container::after {
@@ -153,7 +182,7 @@
     text-decoration: none;
   }
 
-  .header-intor__watch-video {
+  .header-intro__watch-video {
     margin: 0;
     padding-right: 5px;
     padding-bottom: 5px;
@@ -213,6 +242,7 @@
     margin-right: 13px;
     margin-bottom: 22px;
     width: 582px;
+    box-shadow: none;
   }
 
   .header-intro__video-container::before {

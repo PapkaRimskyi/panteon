@@ -1,17 +1,110 @@
 .facts-about-mars {
-  height: 172px;
   background-color: #fff5f8;
+}
+
+.facts-about-mars__container {
+  margin: 0 auto;
+  padding-top: 36px;
+  padding-bottom: 34px;
+  width: $mobile-width;
   overflow: hidden;
 }
 
+.facts-about-mars__list {
+  margin: 0;
+  padding: 0;
+  width: $desktop-width;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  transform: translateX(16px);
+}
+
+.facts-about-mars__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.facts-about-mars__item::after {
+  position: absolute;
+  content: "";
+  top: 29px;
+  right: -40px;
+  width: 1px;
+  height: 49px;
+  background-color: #e12457;
+  opacity: 0.15;
+}
+
+.facts-about-mars__paragraph {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.facts-about-mars__paragraph--font-size {
+  margin-bottom: 11px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #e12457;
+}
+
+.facts-about-mars__item:first-of-type .facts-about-mars__paragraph--width  {
+  width: 113px;
+}
+
+.facts-about-mars__item:nth-of-type(2) .facts-about-mars__paragraph--width {
+  width: 130px;
+}
+
+.facts-about-mars__item:nth-of-type(3) .facts-about-mars__paragraph--width {
+  width: 145px;
+}
+
+.facts-about-mars__item:nth-of-type(4) .facts-about-mars__paragraph--width {
+  width: 123px;
+}
+
+.facts-about-mars__item:nth-of-type(5) .facts-about-mars__paragraph--width {
+  width: 135px;
+}
+
+.facts-about-mars__item:last-of-type .facts-about-mars__paragraph--width {
+  width: 97px;
+}
+
 @media (min-width: $tablet-width) {
-  .facts-about-mars {
-    height: 209px;
+  .facts-about-mars__container {
+    padding-top: 42px;
+    padding-bottom: 54px;
+    width: $tablet-width;
+  }
+
+  .facts-about-mars__list {
+    transform: translateX(24px);
+  }
+
+  .facts-about-mars__item::after {
+    top: 39px;
+  }
+
+  .facts-about-mars__paragraph--font-size {
+    font-size: 48px;
+    line-height: 48px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .facts-about-mars {
-    height: 212px;
+  .facts-about-mars__container {
+    padding-top: 45px;
+    width: $desktop-width;
+  }
+
+  .facts-about-mars__list {
+    transform: translateX(0);
   }
 }

@@ -5,27 +5,73 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Panteon</title>
-  <link href="fonts/ProsimaNova-Black.woff" rel="preload" as="font">
-  <link href="fonts/ProsimaNova-Bold.woff" rel="preload" as="font">
-  <link href="fonts/ProsimaNova-Light.woff" rel="preload" as="font">
-  <link href="fonts/ProsimaNova-Regular.woff" rel="preload" as="font">
-  <link href="fonts/ProsimaNova-Semibold.woff" rel="preload" as="font">
-  <link href="fonts/ProsimaNova-Thin.woff" rel="preload" as="font">
+  <link href="fonts/ProximaNova-Black.woff" rel="preload" as="font">
+  <link href="fonts/ProximaNova-Bold.woff" rel="preload" as="font">
+  <link href="fonts/ProximaNova-Light.woff" rel="preload" as="font">
+  <link href="fonts/ProximaNova-Regular.woff" rel="preload" as="font">
+  <link href="fonts/ProximaNova-Semibold.woff" rel="preload" as="font">
+  <link href="fonts/ProximaNovaT-Thin.woff" rel="preload" as="font">
   <link href="css/style-min.css" rel="stylesheet">
 </head>
 
 <body>
+  <svg style="display: none;">
+    <symbol id="panteon-logo__project-icon">
+      <image width="39" height="39" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAMAAAC7faEHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABR1BMVEUAAADgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1YAAAB19OBIAAAAa3RSTlMAGV2dx+v8zJxgFgFPuf26TkPT9MGbhYCKxfdGRISMWQYMofCWOwRAmfHZJNj1eg8QL7sdKIYCWo1zIkFQWDEbGKuPSTnotGwwA9X2qh9bU2e+mP4aCUg+Huye7SBhIcjqtssy6WI6dWkctTJ5ZuEAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wITAR0Yiar24AAAAn9JREFUOMuNVOlf2kAQXcFEqJCWI6DY1nL2ELCKSAVEsFxWrfaQQqVitfXo+/+/d3Y3CUFCf50vu9l5mfdmZncYs9ucyz2vqICy4PE+YjNs0efXMDbt8ZNFJ1ggyL2hsB6JLnmWY/wjuPL02fPVF3ZUPEHnyVQ6Y3xnXr56bQR+szaGrWWBXH59guBtVDWAVsQNBdgsPFSyZUpdNaMRrLg9pbhk4t4Z2oh0x8q6XKlWyiLTXRMXkS5KoWigaroiPIpeY2zP0IcVWRDSJknrDVv9GnW2b2zfC6IgcjKFZgtQ251AN9BpU6hW82CfR1TxgYfxAXkJOwSOjg0Bx0fAYZPt7X7cigIndOJHUtSt3oJ2asv2VEOrLuqYxCdqvYaUOCdtdhgBSaPYfMaXr8wFpEWmRCpOz3re3pnYEXWNr98AL3MjJHqqQ+2L4g5I+qDEt30VOl8PcvjO5hEWWSto23sggG0oouDLWGCK/KcMdDjpAOelYekcA07dAcrc6YHCVNmVChCgpScjUdSe7ECFO5cABkT5tgp0afECQ1qGwA9aukCVO6mC/xUvAtXUd/EvfTrpG8l82SV+zsw3jJFVPw+0q6y771S/TAhuqx/XIsyvPvXj94N+pAGX1d8byed26G8K2px1X24lLjt9X9aT8I/v353EXRmovrx/3PKAb3yf72NyWvyx3WcBK+QQXLS9j5MYJqwhSNn2puzA+L3d393eXHsux+9NWBFIMIf3yy6s98tth1KLmx8z5gGRUjTFNoac5wsrkDZlw37iNK/W8zkiXZv8dWr+pVNJOknEp0hs8zSih0NingYcNE/NZ7/PcT5zo3k/onmvKiO3a27C8xdjOuIJHzYAGAAAAABJRU5ErkJggg=="/>
+    </symbol>
+    <symbol id="hamburger-menu">
+      <path d="M1 0h27a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 8h45a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 8h20a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2z" fill-rule="evenodd" />
+    </symbol>
+    <symbol id="arrow">
+      <path d="M7.809 1.68L1.694 7.71a1 1 0 0 1-1.411 0 .974.974 0 0 1 0-1.39L6.398.28a1.016 1.016 0 0 1 1.411 0 .986.986 0 0 1 0 1.4zm-.5.05l6.006 5.92a.983.983 0 0 0 1.4 0 .965.965 0 0 0 0-1.38l-6-5.93a1 1 0 0 0-1.4 0 .978.978 0 0 0-.002 1.39z" fill="#fff" fill-rule="evenodd"/>
+    </symbol>
+    <symbol id="all-about-colony__cup">
+      <image width="30" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAXCAMAAAAr4Q9YAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABC1BMVEUAAADgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1YAAAD5noSkAAAAV3RSTlMAMvmw7BBJHDUSIOSNFQrnMffEU9rm4q0R3IXMmljbuOqGGvyk/RMoUHIj+I69Aj2jXHPKeWhtSDfzZha/VJPDBMC7OsHGyUwBJ+XP6LrRS5Cz0IT28lkS9PuKAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+MCEBMPEYWV5mcAAAD+SURBVCjPddDnVsJAEAXgMViIDRBixwYIUhJUUCEYC1KUqqjz/m/CZnY3J/X+yZ35cjY5CwCwoqCTmHiuroHMOgYZNxyOh7Hq8GYY49b2DufdUEZMJLmngrynpjOo8S/sB/kA4PAIj4lPgnzK1lk8Iz6XeOHwJVtfYY44L3aF62JJ4/WGrctYIa4KrrGuG3W73rJ6h/fEDcFNmh7s+gjw1BKLtjjbpKlj98azVcGXV1qUOL/RYBbkj76Li+3y8cPQ2dCk3uvXB0Nx6Z/yfc0y9JpdFHBFdV20Rmd/uRly6MvIw2M/Tzw89XPew7O5L0kp3z9RGS0Yz38xIn//AEsRT5NAyV/sRAAAAABJRU5ErkJggg=="/>
+    </symbol>
+    <symbol id="all-about-colony__helmet">
+      <image width="26" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAATCAMAAAC5m+00AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAilBMVEUAAADgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1YAAAAwQuRMAAAALHRSTlMAj7ICNpcPurl5C8nXXaLxQ0LyTQ0nAdgpCUZH7Zxk2tne3ZMIIApQfeD7oAglKmcAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wIQEw8s3f2qdgAAAKZJREFUKM99zFcSglAMBdCL0hUsNCk2EETI/tenLxnUUeB+pJ2ZAEM04mj4z0Jo8Xtf6jCEDOjLbzEtG46QA9syP+KuaA1PyMOaVu6bfKINtkI77In8QQJ1CiOhKFQ1EIkTtRxSofSgahIzZXzKUahWIOc1YzryfMJZtQtOvB6ZrjyXlTysSm5XJTcaze1F9TjV89TcR9NgLm35GE3ZoqOJdOinqH8CAgw04neclv4AAAAASUVORK5CYII="/>
+    </symbol>
+    <symbol id="all-about-colony__microscope">
+      <image width="22" height="31" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAfCAMAAADUZc3BAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABI1BMVEUAAADgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1YAAAB2yeneAAAAX3RSTlMAd60dH/a+CSez/DEL2pCLXS0BxVVk0BTt8mqdXDzXBdQDduuU9fncBjT9bIB0f8wweoTl4wJFawd++Fsjt29NHjKCEeagE8RQdSQ2fNgIDMkoD6slQWCo/shlFtuKnzUYbawAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wIQEw86KSkfJwAAAQpJREFUKM9t0OdWwkAQBeAhghhU7AERxYgNKwhWVOy9937f/y2czZBNvX925jt7tgxRMAmjg6JJptAZwXSXiUx3WHt6AWQjm/tY0R/WgYxiI6SDQ0oxHOIRR610UHN5hzFaCPAY3BR9Oq4VE56WJj2GizZN+bTs8rQ5o/pZ4bl50cqC9ItLsi4Lr0i3alO1tlYHGuviG2pGMHOq3uSq2j58a3sHSCWdiTM39Qt395CQpzLv+z7UKjnLQdxwiQrMh0SWzpHS4wZwYhN5vztlPTvnosbFBcdQWr+8ur4pc3F71z7v/sE/kkd9z9OzVutF6PVN5f1D9POLm+Y3FRGTH8rGMeg3niv5GP37B6CtdXK0awlcAAAAAElFTkSuQmCC"/>
+    </symbol>
+    <symbol id="all-about-colony__camera">
+      <image width="25" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAVCAMAAACE9bUqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAmVBMVEUAAADgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1YAAACszfBYAAAAMXRSTlMAR8BAAVSA0Ir3unRe4TjoHRt7nFo/8+sDB+e2Q6jLIv4foaYGjvV+HLc6AvLe0y/UoZaL0gAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjAhATEBFIz+j5AAAAuUlEQVQoz3XQextCMBQG8FclJEJRuebShYR9/y9XaWjD+8/O2W/Ps+0ANAL5RQCfBZUFD0vSZdltrcT1N1IvUtuLK8hkOjKUGVEw1Bt1q26GthdNb6/VNV52Bkxrb5kwdpwcYDufxbFxYOV4Ortt4Z5PR0Y8+PSoD4+RACIVEQEjISIqEUJGLjGStkgQX9i3pciuN3K7Zkj5n96B7JEB99EMSF488Szy8XQ+KV/lX4dqZtYV6mYSmvoNEyxMbk9925QAAAAASUVORK5CYII="/>
+    </symbol>
+    <symbol id="all-about-colony__nature">
+      <image width="26" height="27" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAMAAABVyG9ZAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABg1BMVEUAAADgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1bgI1YAAAA69JgBAAAAf3RSTlMAFcaLBg/NxAO8yAmbPf4E1rZY/Ru3+GXy69yk9LrRtYhHBep0wBpimeRz7CCG+mSwKzy07VI2SQ2j4G46QNP53Ut+sQjO6a37FySN7uV5VjSyHsHJKePDEWB9yqgL0HXPYzGB/HKz8BBwLyqXOczCM0gWWp6gaLkTbxTamE0HlAu/xwAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjAhATEBw2fpREAAABXklEQVQoz22SZ1fCUAyGg4AWEBRRAUVBcSEiuCdYFfcERNyo4EDFvVf+One0/VCac5qb+z43p0lOABTTVegNoGnGSsQqoxYRTEjMbNFAemRWXU6sNo7QqiY1tRJBuxrVyQQd9SrUwORG6pwq5KKiu0mjEAtLavZQ36KorV5fWzv4qdjBHnQCdHX3mAO9QG9BX1+oHzFM48jAoJ01MgS8ruGRUTeOkfrC4xNSqZPgkaKpaU+UeF1M7mIGRHaQb3YuivPxBaVBBDv1i0vLGFiJ2lbX6G19g2dtshfuLRHD24kkKQZTO0wSIc2zd9OZxN7+AYn0h1yJAJh4lDEewfEJYvZU+tUZwLmDh7k4GPJ4cSmRq2syjwKP8zdwi3cFub4sm1WW56WgeJ+U23wQ+BwfvQw+FdPSGmBMpwz5+SX3+vYOQpCTj8+yDSky4PoSypfHSYA/9K21jIWf379/+VICQeOqYhgNhIIAAAAASUVORK5CYII="/>
+    </symbol>
+    <symbol id="panteon-logo__project-icon-footer">
+      <image width="32" height="32" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjAhMTMh5tdxymAAACrUlEQVRIx42VvU+aURTGn9c6+ZEAsph0wbbYxI/BxDiYmtaB9GtwaieXutF/gl07wmDYakNZLIODuBhtJ5q0KTCY2oTFlNSkJY0EChF/HXjfCy8gcqdzzz3nOd/nWupxmNCaHmleAY0J/dFPZfRJH6y/uvkwQ4IavU6VtwT7K48TpQFAhgghAnjwcYenRPgGwCUpfgFZ1nrZPgUgyVxP+AVSLo/cECxRAgqs9PEw6ALIuq2XgGO8fUN80ZEVSxpuxq6UPPqox1bFCHv1XIu6LelMn7VnlSSdu/DOLRzhKFBoWcdPrKMSNWL4GeakjbfXcr8BrdhZpghAji3ChNkiB0CRZe61QVxyv6mQAJJt6hUgz6or+lXyQIVlhnnIS6Z5D7yTxAQ1cAqHnyKwz1hXAsfYB4r47fsc8A+P2AAyRiwG5LvVbYg8EDP3r8ArsQNEnMxTA8d55klTp06aeRMI1JxkEwHiIguEbNY6kDPqZZOusoHIAes2/QTIDSkg6dT2alFS2qY3NaojTWtaRxrVps1N21KS9F3SpADw2Ji7QNim69CcPYJA3eaGgV2b9gFXQ648NSRZ17RxN/9KkjWksiSnB4uSpmz6UNI2QYLalnRot+2UpDNbwiup3J3Ek4GTGAKy7jL6qAIXVIkzMlAZdzob6cBYjTcjb8Xe1UgZYKOzlSutDThAK9eYkHuYqBqAi/a8t4bJcJJAoknOtsaZeNu8n/CG1+5xNuorQINZ52oWCiPEqVLhoM0Xs1CMupcCEJXTNozri+46Kw1LssCnZ1rUpG61rbSm+oj29UA/tGBdtGIcaKna1o+BEjOdDwOsdYkVCkCJpV6PN30scyQBOO2ybkR6fW0eAoSIkAGgQZTx/jHOXvu51kiYwpnTc3hd37tUVkFZHSpl/e6W/Q9jMjuQUdZ44wAAAABJRU5ErkJggg=="/>
+    </symbol>
+    <symbol id="vk-logo">
+      <image width="35" height="35" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAMAAAApB0NrAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABCFBMVEUAAABNdqFNdqFNdqFNdqFNdqFNdqFNdqFNdqFNdqFNdqFNdqFNdqFNdqFNdqFNdqFNdqFNdqFniq9vkLNTe6R1lbbC0N/T3ejQ2uaftcxkiK1sjrFPeKJZf6f+/v/////J1uNykrXh6O9VfKVoiq/+/v56mLnG0+FqjbCWrshSeqS3yNnt8fWFob5ihqz8/P2Io8DI1eJ7mbmGor+9zNxsjrL9/f7n7PJYf6eXr8hTeqSPqcTi6PDd5e3i6fDN2OT6+/zw8/fQ2+aDn72Np8OwwtXD0d+UrMb8/f6EoL6ovNFdgqmQqsT19/lcgqloi6+zxNfj6vDn7fJOd6Hy9fj2+PpwkbMAAAA6FUdFAAAAEXRSTlMAGE1zh5AZetQUlvpX7gGPpV05dwUAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wIRFjMQPxYKgAAAAWRJREFUOMuNVGlXwjAQ7IWFllLGoogWqiKCeF+I4n3ft/7/n2I2TbHw2r7Mh8x2d1662c1GUeJQNd3IGbqmKimYMPOIkDcnEhQFy0YctlUYlxQdjMMpjihKLpLglmKSMpJR/he5SIM7zAXpEDkVnAyNE57OQhYsXjo7U2NTMU1kw2Qa3oBJz/MqwNR0tTpTI8csc8z5vC2sjcT1RhAE88DCIuOgCSy1yFjmG6mKxrnNPI0OsEKhLrBKvNblMU3ROXvkawPrxMDGJvFWmJCuGKGxTc4d7IYa/rUnkjaUXGjs95j3oH9IwaMBrcdNoclF+4QZnJzSekZ/Ou9guI8urPpFMILLYYF0cS6Gq1FN6zoKaGF9OG5SRKqoM8G/FdHa3T0XPUDUOdYv/7HHNU945vzyGvUr3ve3949W8PkFDL6Z5uc36nvy/fH7ldj9kbqHMvdZai6k5ktmTqXmXe7dkHp/Mt6xP0ksT91hUrPHAAAAAElFTkSuQmCC"/>
+    </symbol>
+    <symbol id="twitter-logo">
+      <image width="34" height="34" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAMAAAANmfvwAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABEVBMVEUAAABVrO5VrO5VrO5VrO5VrO5VrO5VrO5VrO5VrO5VrO5VrO5VrO5VrO5VrO5VrO5VrO50uu+l0PCv1PCQx/Bbru5mtO5isu6gzfCjz/Dx8vLb6PGezfDO4vGPxu+Oxu+kz/BWrO6BwO/N4vGay/BdsO6VyfDG3/Fpte+82vHt8PKDwe9zue/u8fK11/B6ve9Xre7K4fGLxO9Wre6/2/Hr7/LR5PHk7PJ4vO+WyfDJ4PHv8fJqtu/q7/K01/ChzvDn7fKCwO/Y5/F9vu/r8PJ1uu9vuO/j7PKTyPBhse7w8fKYyvBaru6y1vDL4fHa6PFZru6Rx/DK4PHH3/GNxe9wuO97ve98vu9tt+9Yre4AAABnFRjLAAAAEHRSTlMAHFuIqbUJa80CaOzENOrxr51uVgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjAhEWMzeaHL/rAAABV0lEQVQ4y42Ud1uDMBDGE0aZpWfdcdYtlha11r23ddSt3/+LSOEIRGgf3r8ud78nFy5vICQlKsmKqiqyREmuSpoOXLpWygCGaYEgyzREgtqQkS20KzuQI6ecIiqQqwpnqAN95GAvw4a+sqMzmzBAZjgPaxBi9eajZdJD1eGRUYCxcKEFCM50fCImJlmgqemZ2WjOwedgYY7N18JggUVaXFoO15RIiKwwtrrWC9YRcTeigkRkROpB1ms0fdhEZAsLMlEw2m6FhZ32LiJ7WFCIitH+wSETdIQFlSN1EWDHPkfiRnAiIi3gjeLjgn96lkbOgR9X4shFmmjX4rzERwdweZUQ3jVPU34BgW4atzFyx5O6cI33VTcCHjrJnWrcDI+dp2cPt3hp/jMDWqr7+hbu4b5/+AkRWSoxZvfz6/vnV7AOGrOAvYs8kiJPrciDLfLsi/w8BvyC/gDsukkzbBpZwwAAAABJRU5ErkJggg=="/>
+    </symbol>
+    <symbol id="facebook-logo">
+      <image width="34" height="34" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAMAAAANmfvwAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAmVBMVEUAAAA7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZhAXpted6tsg7Jac6g8WpidrMv09vn///+2wdmercxFYZ34+ftuhbPd4u2qt9KAlLx4jbhyiLVNaaJgeKuSo8aImsBSbaSdrMyotdGWpsh/k7x/krzCzN/V3OnS2edfeKtheqwAAAAu55tNAAAAEHRSTlMAHFuIqbUJa80CaOzENOrxr51uVgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjAhEWNAhjOwQRAAABDklEQVQ4y5WU6XaCMBCFs2EgCESxLXZTW7QrXd7/5Uqswk0yp4fef0m+M5k7mQljIC6kShIlBWekZjq1g1I9i4DM5NZTbjKf4HMbae5dV5SWUFkAUVlS1cBwjLFY1nW9Osc53ZVBHheXV02v9ZDPb84GYlw3jYdYc6wHuL25DZHc1UdDkDt3fr/ZbMct3SNQU7tzyIPnKu3t2BCpfeeciXHx2O4dcmjbJ0AEk+PiuTnrBRDJFIW8AqJYQiFvgCSIvHcf7vyz6748BC6iHSlMl0YkmqYRMaV08QP4SBo8I4HooBli5NgM2FIxYsLGjJBTY0J7h0jJoyH5XvdaDURV/GfUpgzslLGf8nn88QX9AB01PeveI/2eAAAAAElFTkSuQmCC"/>
+    </symbol>
+    <symbol id="youtube-logo">
+      <image width="32" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAWCAMAAACWh252AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAY1BMVEUAAAD2HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA32HA0AAAAvMPBMAAAAH3RSTlMANKDh+wOOkjyo5v3dxUDAuzi4tQx0FoXvJJf3qv6+AYavaQAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjAhEWNBPpXs39AAAAeklEQVQoz4WSRw6AMAwEN6H33kv+/0vgBCjgnZulkZysFwCUdlxj4Tpa4cLzzS++dwqBEQiA0IiEiGQhQiwLMZJ7SDNbSPAYNPLCMt4CkJdEAKqaCKfSEKHtRKEfRmnFNC/SI9W6Wd98BrV/BUWjpsei56aF4ZUjpT0ABDRIs7FVgCAAAAAASUVORK5CYII="/>
+    </symbol>
+  </svg>
   <header class="panteon-header">
     <div class="panteon-header__container">
       <nav class="header-nav">
-        <p class="header-nav__project">
-          <span class="header-nav__project-name header-nav__project-name--font-weight">Pantheon</span>
-          <span class="header-nav__project-name">project</span>
+        <p class="panteon-logo__project">
+          <svg class="panteon-logo__project-icon" xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+            <use xlink:href="#panteon-logo__project-icon"></use>
+          </svg>
+          <span class="panteon-logo__project-name-container">
+            <span class="panteon-logo__project-name panteon-logo__project-name--font-weight">Pantheon</span>
+            <span class="panteon-logo__project-name">project</span>
+          </span>
         </p>
         <a class="header-nav__menu-link" href="#">
           <span class="header-nav__menu">Меню</span>
-          <svg class="header-nav__hamburger-svg" xmlns="http://www.w3.org/2000/svg" width="47" height="18">
-            <path data-name="Прямоугольник, скругл. углы 1 копия 2" d="M1 0h27a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 8h45a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 8h20a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2z" fill="#fff" fill-rule="evenodd" />
+          <svg class="header-nav__hamburger-svg" xmlns="http://www.w3.org/2000/svg" width="47" height="18" fill="#ffffff" viewBox="0 0 47 18">
+            <use xlink:href="#hamburger-menu"></use>
           </svg>
         </a>
       </nav>
@@ -36,16 +82,16 @@
           <span class="header-intro__text header-intro__text--font-size">Марс</span>
         </h1>
         <div class="header-intro__video-container">
-          <img class="header-intro__video-preview" src="../img/video.jpg" width="282" height="207" alt="Превью видео">
+          <img class="header-intro__video-preview" src="img/video.jpg" width="282" height="207" alt="Превью видео">
           <a class="header-intro__play-video" href="#">
             <svg class="header-intro__play-button" width="52" height="52" viewBox="0 0 52 52">
               <circle r="26" cx="26" cy="26" fill="#e12457"></circle>
               <polygon points="22 18, 22 32, 35 25" fill="#ffffff"></polygon>
             </svg>
-            <p class="header-intor__watch-video">Смотреть видео</p>
+            <p class="header-intro__watch-video">Смотреть видео</p>
           </a>
         </div>
-        <a class="header-intro__scrool-button" href="#">
+        <a class="header-intro__scrool-button" href="#about-mars">
           <span class="visually-hidden">Кнопка для перехода</span>
           <svg class="header-intro__svg-button" width="60" height="60" viewBox="0 0 60 60">
             <circle class="header-intro__circle" r="30" cx="30" cy="30" fill="#e12457"></circle>
@@ -58,42 +104,40 @@
     </div>
     <section class="facts-about-mars">
       <h2 class="visually-hidden">Несколько фактов о Марсе</h2>
-      <!-- <table class="facts-about-mars__table">
-        <tr class="facts-about-mars__row">
-          <th class="facts-about-mars__headline">
-            <p class="facts-about-mars__paragraph">4</p>
-          </th>
-          <th class="facts-about-mars__headline">
-            <p class="facts-about-mars__paragraph">7</p>
-          </th>
-          <th class="facts-about-mars__headline">
-            <p class="facts-about-mars__paragraph">10,7%</p>
-          </th>
-          <th class="facts-about-mars__headline">
-            <p class="facts-about-mars__paragraph">2</p>
-          </th>
-          <th class="facts-about-mars__headline">
-            <p class="facts-about-mars__paragraph">21 км</p>
-          </th>
-          <th class="facts-about-mars__headline">
-            <p class="facts-about-mars__paragraph">+20</p>
-          </th>
-        </tr>
-        <tr class="facts-about-mars__row">
-          <td class="facts-about-mars__data">четвёртая планета по&nbsp;удалённости<br>от&nbsp;Солнца</td>
-          <td class="facts-about-mars__data">седьмая по размерам планета Солнечной системы</td>
-          <td class="facts-about-mars__data">массы Земли (ваш&nbsp;вес&nbsp;будет в 3 раза меньше, чем на Земле)</td>
-          <td class="facts-about-mars__data">спутника вместо Луны&nbsp;(как&nbsp;картошка, только&nbsp;больше)</td>
-          <td class="facts-about-mars__data">высота самой высокой горы Марса</td>
-          <td class="facts-about-mars__data">максимальная<br>температура на&nbsp;поверхности</td>
-        </tr>
-      </table> -->
+      <div class="facts-about-mars__container">
+        <ul class="facts-about-mars__list">
+          <li class="facts-about-mars__item">
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--font-size">4</p>
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--width">четвёртая планета по&nbsp;удалённости от&nbsp;Солнца</p>
+          </li>
+          <li class="facts-about-mars__item">
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--font-size">7</p>
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--width">седьмая по размераз планета Солнечной системы</p>
+          </li>
+          <li class="facts-about-mars__item">
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--font-size">10,7%</p>
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--width">массы Земли (ваш&nbsp;вес&nbsp;будет в 3 раза меньше, чем на Земле)</p>
+          </li>
+          <li class="facts-about-mars__item">
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--font-size">2</p>
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--width">спутника вместо Луны&nbsp;(как картошка, только больше)</p>
+          </li>
+          <li class="facts-about-mars__item">
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--font-size">21 км</p>
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--width">высота самой высокой горы Марса.</p>
+          </li>
+          <li class="facts-about-mars__item">
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--font-size">+20</p>
+            <p class="facts-about-mars__paragraph facts-about-mars__paragraph--width">максимальная температура на&nbsp;поверхности</p>
+          </li>
+        </ul>
+      </div>
     </section>
   </header>
   <main class="panteon-main">
     <section class="about-mars">
       <div class="about-mars__container">
-        <h1 class="about-mars__headline">Марс. Вспомнить всё</h1>
+        <h1 class="about-mars__headline" id="about-mars">Марс. Вспомнить всё</h1>
         <div class="about-mars__container-info">
           <h2 class="about-mars__info-headline">Что такое Марс?</h2>
           <p class="about-mars__paragraph">Планета Солнечной системы, названа в честь Марса &mdash; древнеримского бога войны. Иногда Марс называют «красной планетой» из-за красного оттенка поверхности, придаваемого ей оксидом железа.</p>
@@ -113,6 +157,9 @@
         <p class="from-idea-to-realize__about-elon from-idea-to-realize__about-elon--margin-photo">Канадско-американский инженер, предприниматель, изобретатель и инвестор; миллиардер. Основатель компаний SpaceX и X.com, позже переименованной в PayPal. Планирует потратить большую часть накоплений на реализацию своей мечты, а также мечты многих тысяч романтиков, писателей, учёных: создать внеземную цивилизацию.</p>
         <div class="from-idea-to-realize__elon-photo-container">
           <picture>
+            <source type="image/webp" media="(min-width: 1140px)" srcset="img/elon1600px.webp 1x">
+            <source type="image/webp" media="(min-width: 765px)" srcset="img/elon320-765px.webp 1x">
+            <source type="image/webp" srcset="img/elon320-765px.webp 1x">
             <source media="(min-width: 1140px)" srcset="img/elon1600px.png 1x">
             <source media="(min-width: 765px)" srcset="img/elon320-765px.png 1x">
             <img class="from-idea-to-realize__elon-photo" src="img/elon320-765px.png" alt="Фотография Илона Маска">
@@ -134,37 +181,340 @@
         <div class="flight-cost__ready-to-flight">
           <p class="flight-cost__the-cost">$500 k</p>
           <p class="flight-cost__your-in-mars">и ты на Марсе!</p>
-          <a class="flight-cost__button" href="#">Я готов лететь</a>
+          <a class="flight-cost__button button" href="#">Я готов лететь</a>
         </div>
       </div>
     </section>
+    <section class="basic-thoughts">
+      <div class="basic-thoughts__container">
+        <h2 class="basic-thoughts__headline">Подводные камни в&nbsp;масштабах космоса</h2>
+        <div class="basic-thoughts__video-container">
+          <picture>
+            <source type="image/webp" media="(min-width: 1140px)" srcset="img/basic-thoughts__preview1600px.webp 1x">
+            <source type="image/webp" media="(min-width: 765px)" srcset="img/basic-thoughts__preview765px.webp 1x">
+            <source type="image/webp" srcset="img/basic-thoughts__preview320px.webp 1x">
+            <source media="(min-width: 1140px)" srcset="img/basic-thoughts__preview1600px.jpg 1x">
+            <source media="(min-width: 765px)" srcset="img/basic-thoughts__preview765px.jpg 1x">
+            <img class="basic-thoughts__preview" src="img/basic-thoughts__preview320px.jpg" alt="Превью видео">
+          </picture>
+          <a class="basic-thoughts__play-video" href="#">
+            <svg class="basic-thoughts__play-button" width="52" height="52" viewBox="0 0 52 52">
+              <circle r="26" cx="26" cy="26" fill="#e12457"></circle>
+              <polygon points="22 18, 22 32, 35 25" fill="#ffffff"></polygon>
+            </svg>
+          </a>
+        </div>
+        <div class="basic-thoughts__questions-container">
+          <section class="basic-thoughts__list-container basic-thoughts__list-container--mobile-display">
+            <ul class="basic-thoughts__list">
+              <li class="basic-thoughts__item basic-thoughts__item--active">
+                <a class="basic-thoughts__item-link" href="#">
+                  <span class="basic-thoughts__item-link-span">Жить или выживать?</span>
+                  <span class="basic-thoughts__arrow-container">
+                    <svg class="basic-thoughts__list-arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
+                      <use xlink:href="#arrow"></use>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="basic-thoughts__item">
+                <a class="basic-thoughts__item-link" href="#">
+                  <span class="basic-thoughts__item-link-span">Готовы ли технологии?</span>
+                  <span class="basic-thoughts__arrow-container">
+                    <svg class="basic-thoughts__list-arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
+                      <use xlink:href="#arrow"></use>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="basic-thoughts__item">
+                <a class="basic-thoughts__item-link" href="#">
+                  <span class="basic-thoughts__item-link-span">Путешествие на грани фантастики</span>
+                  <span class="basic-thoughts__arrow-container">
+                    <svg class="basic-thoughts__list-arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
+                      <use xlink:href="#arrow"></use>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="basic-thoughts__item">
+                <a class="basic-thoughts__item-link" href="#">
+                  <span class="basic-thoughts__item-link-span">Жизнь на Марсе</span>
+                  <span class="basic-thoughts__arrow-container">
+                    <svg class="basic-thoughts__list-arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
+                      <use xlink:href="#arrow"></use>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="basic-thoughts__question-container basic-thoughts__question-container--active">
+            <input class="basic-thoughts__input visually-hidden" type="radio" name="question-group" id="life-or-survive-id" checked>
+            <label class="basic-thoughts__question-text" for="life-or-survive-id">Жить или выживать?</label>
+            <svg class="basic-thoughts__question-arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
+              <use xlink:href="#arrow"></use>
+            </svg>
+            <div class="basic-thoughts__answer-container">
+              <p class="basic-thoughts__answer-paragraph">Чем отличаются Земля и Марс? Какие условия встретят новых поселенцев?</p>
+              <p class="basic-thoughts__answer-paragraph">Марс холодная и засушливая планета, на которой есть своя атмосфера, на 96% состоящая из углекислых газов, а минимальная температура опускается до -140 градусов по Цельсию. Каждый год по весне на планете случаются пылевые бури, длящиеся от нескольких&nbsp;часов до нескольких месяцев.</p>
+              <p class="basic-thoughts__answer-paragraph">На планете отсутствует магнитное поле,&nbsp;поэтому радиационный фон повышен. А низкая гравитация при&nbsp;длительном пребывании на Марсе сделает возвращение на Землю невозможным. Полет на Марс &mdash; билет в один конец с целью создать новую цивилизацию.</p>
+            </div>
+          </section>
+          <section class="basic-thoughts__question-container">
+            <input class="basic-thoughts__input visually-hidden" type="radio" name="question-group" id="technology-id">
+            <label class="basic-thoughts__question-text" for="technology-id">Готовы ли техологии?</label>
+            <svg class="basic-thoughts__question-arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
+              <use xlink:href="#arrow"></use>
+            </svg>
+            <div class="basic-thoughts__answer-container">
+              <p class="basic-thoughts__answer-paragraph">Чем отличаются Земля и Марс? Какие условия встретят новых поселенцев?</p>
+              <p class="basic-thoughts__answer-paragraph">Марс холодная и засушливая планета, на которой есть своя атмосфера, на 96% состоящая из углекислых газов, а минимальная температура опускается до -140 градусов по Цельсию. Каждый год по весне на планете случаются пылевые бури, длящиеся от нескольких&nbsp;часов до нескольких месяцев.</p>
+              <p class="basic-thoughts__answer-paragraph">На планете отсутствует магнитное поле,&nbsp;поэтому радиационный фон повышен. А низкая гравитация при&nbsp;длительном пребывании на Марсе сделает возвращение на Землю невозможным. Полет на Марс &mdash; билет в один конец с целью создать новую цивилизацию.</p>
+            </div>
+          </section>
+          <section class="basic-thoughts__question-container">
+            <input class="basic-thoughts__input visually-hidden" type="radio" name="question-group" id="fantastic-journey-id">
+            <label class="basic-thoughts__question-text" for="fantastic-journey-id">Путешествие на грани фантастики</label>
+            <svg class="basic-thoughts__question-arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
+              <use xlink:href="#arrow"></use>
+            </svg>
+            <div class="basic-thoughts__answer-container">
+              <p class="basic-thoughts__answer-paragraph">Чем отличаются Земля и Марс? Какие условия встретят новых поселенцев?</p>
+              <p class="basic-thoughts__answer-paragraph">Марс холодная и засушливая планета, на которой есть своя атмосфера, на 96% состоящая из углекислых газов, а минимальная температура опускается до -140 градусов по Цельсию. Каждый год по весне на планете случаются пылевые бури, длящиеся от нескольких&nbsp;часов до нескольких месяцев.</p>
+              <p class="basic-thoughts__answer-paragraph">На планете отсутствует магнитное поле,&nbsp;поэтому радиационный фон повышен. А низкая гравитация при&nbsp;длительном пребывании на Марсе сделает возвращение на Землю невозможным. Полет на Марс &mdash; билет в один конец с целью создать новую цивилизацию.</p>
+            </div>
+          </section>
+          <section class="basic-thoughts__question-container">
+            <input class="basic-thoughts__input visually-hidden" type="radio" name="question-group" id="life-on-mars-id">
+            <label class="basic-thoughts__question-text" for="life-on-mars-id">Жизнь на Марсе</label>
+            <svg class="basic-thoughts__question-arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
+              <use xlink:href="#arrow"></use>
+            </svg>
+            <div class="basic-thoughts__answer-container">
+              <p class="basic-thoughts__answer-paragraph">Чем отличаются Земля и Марс? Какие условия встретят новых поселенцев?</p>
+              <p class="basic-thoughts__answer-paragraph">Марс холодная и засушливая планета, на которой есть своя атмосфера, на 96% состоящая из углекислых газов, а минимальная температура опускается до -140 градусов по Цельсию. Каждый год по весне на планете случаются пылевые бури, длящиеся от нескольких&nbsp;часов до нескольких месяцев.</p>
+              <p class="basic-thoughts__answer-paragraph">На планете отсутствует магнитное поле,&nbsp;поэтому радиационный фон повышен. А низкая гравитация при&nbsp;длительном пребывании на Марсе сделает возвращение на Землю невозможным. Полет на Марс &mdash; билет в один конец с целью создать новую цивилизацию.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+    <section class="all-about-colony">
+      <div class="all-about-colony__container">
+        <h2 class="all-about-colony__headline">Организация жизни в&nbsp;колонии</h2>
+        <section class="all-about-colony__switches">
+          <ul class="all-about-colony__switches-list">
+            <li class="all-about-colony__switches-item all-about-colony__switches-item--active">
+              <a class="all-about-colony__switches-link" href="#"></a>
+              <p class="all-about-colony__switches-title-container">
+                <svg class="all-about-colony__icon" xmlns="http://www.w3.org/2000/svg" width="30" height="23" viewBox="0 0 30 23">
+                  <use xlink:href="#all-about-colony__cup"></use>
+                </svg>
+                <span class="all-about-colony__switches-title-text">Проживание</span>
+              </p>
+            </li>
+            <li class="all-about-colony__switches-item">
+              <a class="all-about-colony__switches-link" href="#"></a>
+              <p class="all-about-colony__switches-title-container">
+                <svg class="all-about-colony__icon" xmlns="http://www.w3.org/2000/svg" width="26" height="19" viewBox="0 0 26 19">
+                  <use xlink:href="#all-about-colony__helmet"></use>
+                </svg>
+                <span class="all-about-colony__switches-title-text">Работа</span>
+              </p>
+            </li>
+            <li class="all-about-colony__switches-item">
+              <a class="all-about-colony__switches-link" href="#"></a>
+              <p class="all-about-colony__switches-title-container">
+                <svg class="all-about-colony__icon" xmlns="http://www.w3.org/2000/svg" width="22" height="31" viewBox="0 0 22 31">
+                  <use xlink:href="#all-about-colony__microscope"></use>
+                </svg>
+                <span class="all-about-colony__switches-title-text">Наука</span>
+              </p>
+            </li>
+            <li class="all-about-colony__switches-item">
+              <a class="all-about-colony__switches-link" href="#"></a>
+              <p class="all-about-colony__switches-title-container">
+                <svg class="all-about-colony__icon" xmlns="http://www.w3.org/2000/svg" width="25" height="21" viewBox="0 0 25 21">
+                  <use xlink:href="#all-about-colony__camera"></use>
+                </svg>
+                <span class="all-about-colony__switches-title-text">Живопись</span>
+              </p>
+            </li>
+            <li class="all-about-colony__switches-item">
+              <a class="all-about-colony__switches-link" href="#"></a>
+              <p class="all-about-colony__switches-title-container">
+                <svg class="all-about-colony__icon" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
+                  <use xlink:href="#all-about-colony__nature"></use>
+                </svg>
+                <span class="all-about-colony__switches-title-text">Выращивание</span>
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="all-about-colony__info-container all-about-colony__info-container--active">
+          <div class="all-about-colony__info-img-container">
+            <picture>
+              <source type="image/webp" media="(min-width: 1140px)" srcset="img/all-about-colonyrResidenceImg1600px.webp 1x">
+              <source type="image/webp" media="(min-width: 765px)" srcset="img/all-about-colonyrResidenceImg765px.webp 1x">
+              <source type="image/webp" srcset="img/all-about-colonyrResidenceImg320px.webp 1x">
+              <source media="(min-width: 1140px)" srcset="img/all-about-colonyrResidenceImg1600px.jpg 1x">
+              <source media="(min-width: 765px)" srcset="img/all-about-colonyrResidenceImg765px.jpg 1x">
+              <img class="all-about-colony__info-img" src="img/all-about-colonyrResidenceImg320px.jpg" alt="Спальные места">
+            </picture>
+          </div>
+          <div class="all-about-colony__text-container">
+            <h2 class="all-about-colony__text-headline">Проживание</h2>
+            <p class="all-about-colony__text-paragraph">В основе жилых помещений лежат надувные компоненты &mdash; спальня, рабочая зона, гостиная, парник для выращивания зелени &mdash; 50 м<sup>2</sup> на человека. Благодаря этим компонентам, колонисты смогут принять душ, приготовить свежую пищу, носить обычную одежду. Весь комплекс соединен сетью ходов.</p>
+            <a class="all-about-colony__more-button" href="#">Подробнее</a>
+          </div>
+        </section>
+        <section class="all-about-colony__info-container">
+          <div class="all-about-colony__info-img-container">
+            <picture>
+              <source type="image/webp" media="(min-width: 1140px)" srcset="img/all-about-colonyrResidenceImg1600px.webp 1x">
+              <source type="image/webp" media="(min-width: 765px)" srcset="img/all-about-colonyrResidenceImg765px.webp 1x">
+              <source type="image/webp" srcset="img/all-about-colonyrResidenceImg320px.webp 1x">
+              <source media="(min-width: 1140px)" srcset="img/all-about-colonyrResidenceImg1600px.jpg 1x">
+              <source media="(min-width: 765px)" srcset="img/all-about-colonyrResidenceImg765px.jpg 1x">
+              <img class="all-about-colony__info-img" src="img/all-about-colonyrResidenceImg320px.jpg" alt="Спальные места">
+            </picture>
+          </div>
+          <div class="all-about-colony__text-container">
+            <h2 class="all-about-colony__text-headline">Проживание</h2>
+            <p class="all-about-colony__text-paragraph">В основе жилых помещений лежат надувные компоненты &mdash; спальня, рабочая зона, гостиная, парник для выращивания зелени &mdash; 50 м<sup>2</sup> на человека. Благодаря этим компонентам, колонисты смогут принять душ, приготовить свежую пищу, носить обычную одежду. Весь комплекс соединен сетью ходов.</p>
+            <a class="all-about-colony__more-button" href="#">Подробнее</a>
+          </div>
+        </section>
+        <section class="all-about-colony__info-container">
+          <div class="all-about-colony__info-img-container">
+            <picture>
+              <source type="image/webp" media="(min-width: 1140px)" srcset="img/all-about-colonyrResidenceImg1600px.webp 1x">
+              <source type="image/webp" media="(min-width: 765px)" srcset="img/all-about-colonyrResidenceImg765px.webp 1x">
+              <source type="image/webp" srcset="img/all-about-colonyrResidenceImg320px.webp 1x">
+              <source media="(min-width: 1140px)" srcset="img/all-about-colonyrResidenceImg1600px.jpg 1x">
+              <source media="(min-width: 765px)" srcset="img/all-about-colonyrResidenceImg765px.jpg 1x">
+              <img class="all-about-colony__info-img" src="img/all-about-colonyrResidenceImg320px.jpg" alt="Спальные места">
+            </picture>
+          </div>
+          <div class="all-about-colony__text-container">
+            <h2 class="all-about-colony__text-headline">Проживание</h2>
+            <p class="all-about-colony__text-paragraph">В основе жилых помещений лежат надувные компоненты &mdash; спальня, рабочая зона, гостиная, парник для выращивания зелени &mdash; 50 м<sup>2</sup> на человека. Благодаря этим компонентам, колонисты смогут принять душ, приготовить свежую пищу, носить обычную одежду. Весь комплекс соединен сетью ходов.</p>
+            <a class="all-about-colony__more-button" href="#">Подробнее</a>
+          </div>
+        </section>
+        <section class="all-about-colony__info-container">
+          <div class="all-about-colony__info-img-container">
+            <picture>
+              <source type="image/webp" media="(min-width: 1140px)" srcset="img/all-about-colonyrResidenceImg1600px.webp 1x">
+              <source type="image/webp" media="(min-width: 765px)" srcset="img/all-about-colonyrResidenceImg765px.webp 1x">
+              <source type="image/webp" srcset="img/all-about-colonyrResidenceImg320px.webp 1x">
+              <source media="(min-width: 1140px)" srcset="img/all-about-colonyrResidenceImg1600px.jpg 1x">
+              <source media="(min-width: 765px)" srcset="img/all-about-colonyrResidenceImg765px.jpg 1x">
+              <img class="all-about-colony__info-img" src="img/all-about-colonyrResidenceImg320px.jpg" alt="Спальные места">
+            </picture>
+          </div>
+          <div class="all-about-colony__text-container">
+            <h2 class="all-about-colony__text-headline">Проживание</h2>
+            <p class="all-about-colony__text-paragraph">В основе жилых помещений лежат надувные компоненты &mdash; спальня, рабочая зона, гостиная, парник для выращивания зелени &mdash; 50 м<sup>2</sup> на человека. Благодаря этим компонентам, колонисты смогут принять душ, приготовить свежую пищу, носить обычную одежду. Весь комплекс соединен сетью ходов.</p>
+            <a class="all-about-colony__more-button" href="#">Подробнее</a>
+          </div>
+        </section>
+        <section class="all-about-colony__info-container">
+          <div class="all-about-colony__info-img-container">
+            <picture>
+              <source type="image/webp" media="(min-width: 1140px)" srcset="img/all-about-colonyrResidenceImg1600px.webp 1x">
+              <source type="image/webp" media="(min-width: 765px)" srcset="img/all-about-colonyrResidenceImg765px.webp 1x">
+              <source type="image/webp" srcset="img/all-about-colonyrResidenceImg320px.webp 1x">
+              <source media="(min-width: 1140px)" srcset="img/all-about-colonyrResidenceImg1600px.jpg 1x">
+              <source media="(min-width: 765px)" srcset="img/all-about-colonyrResidenceImg765px.jpg 1x">
+              <img class="all-about-colony__info-img" src="img/all-about-colonyrResidenceImg320px.jpg" alt="Спальные места">
+            </picture>
+          </div>
+          <div class="all-about-colony__text-container">
+            <h2 class="all-about-colony__text-headline">Проживание</h2>
+            <p class="all-about-colony__text-paragraph">В основе жилых помещений лежат надувные компоненты &mdash; спальня, рабочая зона, гостиная, парник для выращивания зелени &mdash; 50 м<sup>2</sup> на человека. Благодаря этим компонентам, колонисты смогут принять душ, приготовить свежую пищу, носить обычную одежду. Весь комплекс соединен сетью ходов.</p>
+            <a class="all-about-colony__more-button" href="#">Подробнее</a>
+          </div>
+        </section>
+      </div>
+    </section>
   </main>
-
+  <footer class="panteon-footer">
+    <section class="departure-date">
+      <h2 class="departure-date__headline">Деньги приготовил. Когда&nbsp;вылетаем?</h2>
+      <div class="departure-date__container">
+        <section class="departure-date__form-container">
+          <form class="departure-date__form" action="https://echo.htmlacademy.ru" method="post">
+            <h3 class="departure-date__form-headline">Будь в курсе новостей</h3>
+            <div class="departure-date__input-container">
+              <input class="departure-date__input departure-date__input--padding-left" type="text" name="name" placeholder="Имя" required>
+              <input class="departure-date__input" type="email" name="e-mail" placeholder="E-mail" required>
+            </div>
+            <button class="departure-date__button-submit button" type="submit">Подписаться</button>
+          </form>
+        </section>
+        <section class="departure-date__info-container">
+          <p class="departure-date__info-paragraph">Первый «частный» полёт на Марс осуществит в 2018 году в беспилотном варианте корабль Dragon V2 с помощью тяжёлой ракеты Falcon Heavy. После этого запланированы две миссии&nbsp;в 2020 году, как минимум одна&nbsp;в 2022-м и, вероятно, пилотируемая миссия через два года с достижением Марса в 2025 году.</p>
+          <p class="departure-date__info-paragraph departure-date__info-paragraph--margin-bottom">Для всех желающих открыты курсы подготовки.</p>
+          <p class="departure-date__info-paragraph departure-date__info-paragraph--desktop-display">За 40-100 ближайших лет на Марс планируется&nbsp;доставить до 1 млн. <span class="departure-date__info-paragraph departure-date__info-paragraph--mobile-display">добровольцев.</span></p>
+          <a class="departure-date__info-criteria-link" href="#">Критерии отбора</a>
+        </section>
+      </div>
+    </section>
+    <section class="more-information">
+      <h2 class="visually-hidden">Наши социальные сети и подробная информация о проекте</h2>
+      <p class="panteon-logo__project">
+        <svg class="panteon-logo__project-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+          <use xlink:href="#panteon-logo__project-icon-footer"></use>
+        </svg>
+        <span class="panteon-logo__project-name-container">
+          <span class="panteon-logo__project-name panteon-logo__project-name--font-weight">Pantheon</span>
+          <span class="panteon-logo__project-name">project</span>
+        </span>
+      </p>
+      <a class="more-information__more-about-project-link" href="#">Подробнее о проекте</a>
+      <div class="more-information__social-list-container">
+        <p class="more-information__social-list-paragraph">Следуйте за нами</p>
+        <ul class="more-information__social-list">
+          <li class="more-information__social-item">
+            <a class="more-information__social-item-link" href="#">
+              <span class="visually-hidden">Vk</span>
+              <svg class="more-information__social-logo" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+                <use xlink:href="#vk-logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="more-information__social-item">
+            <a class="more-information__social-item-link" href="#">
+              <span class="visually-hidden">Twitter</span>
+              <svg class="more-information__social-logo" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                <use xlink:href="#twitter-logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="more-information__social-item">
+            <a class="more-information__social-item-link" href="#">
+              <span class="visually-hidden">Facebook</span>
+              <svg class="more-information__social-logo" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                <use xlink:href="#facebook-logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="more-information__social-item">
+            <a class="more-information__social-item-link" href="#">
+              <span class="visually-hidden">Youtube</span>
+              <svg class="more-information__social-logo" xmlns="http://www.w3.org/2000/svg" width="32" height="22" viewBox="0 0 32 22">
+                <use xlink:href="#youtube-logo"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+  <script src="js/javascript-min.js"></script>
+  <script src="js/picturefill-min.js"></script>
 </body>
 
 </html>
-
-<!-- <section class="from-idea-to-realize">
-  <div class="from-idea-to-realize__container">
-    <h1 class="from-idea-to-realize__headline">От идеи до&nbsp;реализации</h1>
-    <div class="from-idea-to-realize__who-is-elon-container">
-      <h2 class="from-idea-to-realize__who-is-elon-headline">Илон Маск. Гений или безумец?</h2>
-      <p class="from-idea-to-realize__paragraph">Канадско-американский инженер, предприниматель, изобретатель и инвестор; миллиардер. Основатель компаний SpaceX и X.com, позже переименованной в PayPal. Планирует потратить большую часть
-        накоплений на реализацию своей мечты, а также мечты многих тысяч романтиков, писателей, учёных: создать внеземную цивилизацию.</p>
-    </div>
-    <div class="from-idea-to-realize__photo-container">
-      <picture>
-        <source media="(min-width: 1140px)" srcset="img/elon1600px.png 1x">
-        <source media="(min-width: 765px)" srcset="img/elon320-765px.png 1x">
-        <img class="from-idea-to-realize__elon-photo" src="img/elon320-765px.png" alt="Фотография Илона Маска">
-      </picture>
-    </div>
-    <div class="from-idea-to-realize__quote-and-goal">
-      <blockquote class="from-idea-to-realize__elon-mask-quote">
-        Мы должны сделать эту мечту реальностью за наше время жизни. Любой человек, который пожелает отправиться на&nbsp;Марс, должен иметь такую возможность
-      </blockquote>
-      <p class="from-idea-to-realize__elon-mask-goal from-idea-to-realize__elon-mask-goal--margin-bottom">&mdash; заявил Маск на Международной астронавтической конференции в Гвадалахаре (Мексика). Он обосновал необзодимостью своего проекта вопросом выживания человечества, которое для своего сохранения должно стать «космическим видом».</p>
-      <p class="from-idea-to-realize__elon-mask-goal">Илон поставил перед собой цель: сократить стоимость вывода кораблей в космос в 10 раз, что станет первым шагом для челвоечества в освоении Марса.</p>
-    </div>
-  </div>
-</section> -->

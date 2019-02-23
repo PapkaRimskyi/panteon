@@ -1,0 +1,363 @@
+.all-about-colony {
+  margin-bottom: 36px;
+  width: $mobile-width;
+  background-color: $white-color;
+}
+
+.all-about-colony__container {
+  margin: $margin-auto;
+  width: $mobile-container-width;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.all-about-colony__headline {
+  margin-top: 0;
+  margin-bottom: 36px;
+  width: $mobile-container-width;
+  font-size: 35.8px;
+  line-height: 40px;
+  color: #e12457;
+  word-wrap: break-word;
+}
+
+.all-about-colony__switches-list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 16px;
+  list-style-type: none;
+}
+
+.all-about-colony__switches-list::before {
+  position: absolute;
+  content: "";
+  top: 16px;
+  left: 6px;
+  width: 3px;
+  height: 743px;
+  background-color: #e12457;
+}
+
+.all-about-colony__switches-item {
+  position: relative;
+}
+
+.all-about-colony__switches-link {
+  position: relative;
+  margin-bottom: 41px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+  border: 3px solid #e12457;
+  border-radius: 50%;
+  background-color: $white-color;
+}
+
+.all-about-colony__switches-link:hover {
+  background-color: #e12457;
+}
+
+.all-about-colony__switches-item--active .all-about-colony__switches-link {
+  margin-bottom: 560px;
+  background-color: #e12457;
+}
+
+.all-about-colony__switches-title-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: -3px;
+  left: 36px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #e12457;
+}
+
+.all-about-colony__switches-item:nth-of-type(3) .all-about-colony__switches-title-container {
+  top: -9px;
+}
+
+.all-about-colony__switches-item:last-of-type .all-about-colony__switches-title-container {
+  top: -12px;
+}
+
+.all-about-colony__icon {
+  margin-right: 16px;
+}
+
+.all-about-colony__switches-title-text {
+  display: none;
+  word-wrap: break-word;
+}
+
+.all-about-colony__switches-item--active .all-about-colony__switches-title-text {
+  display: block;
+}
+
+.all-about-colony__info-container {
+  width: 263px;
+  display: none;
+}
+
+.all-about-colony__container .all-about-colony__info-container:nth-of-type(2) {
+  margin-top: 45px;
+}
+
+.all-about-colony__container .all-about-colony__info-container:nth-of-type(3) {
+  margin-top: 90px;
+}
+
+.all-about-colony__container .all-about-colony__info-container:nth-of-type(4) {
+  margin-top: 160px;
+}
+
+.all-about-colony__container .all-about-colony__info-container:nth-of-type(5) {
+  margin-top: 210px;
+}
+
+.all-about-colony__container .all-about-colony__info-container:nth-of-type(6) {
+  margin-top: 270px;
+}
+
+.all-about-colony__info-container--active {
+  display: block;
+}
+
+.all-about-colony__info-img-container {
+  margin-bottom: 29px;
+}
+
+.all-about-colony__info-img {
+  display: flex;
+}
+
+.all-about-colony__text-headline {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-size: 24px;
+  color: $black-color;
+  word-wrap: break-word;
+}
+
+.all-about-colony__text-paragraph {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-weight: 300;
+  line-height: 23.5px;
+  color: #4c4c4c;
+  word-wrap: break-word;
+}
+
+.all-about-colony__more-button {
+  padding: 13px 0 14px 0;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: $white-color;
+  background-color: #e12457;
+  text-decoration: none;
+  border-radius: 23px;
+}
+
+.all-about-colony__more-button:hover {
+  background-color: #e74235;
+}
+
+.all-about-colony__more-button:active {
+  background-color: #d7373b;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+@media (min-width: $tablet-width) {
+  .all-about-colony {
+    margin-bottom: 54px;
+    width: $tablet-width;
+  }
+
+  .all-about-colony__container {
+    width: $tablet-container-width;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .all-about-colony__headline {
+    margin-bottom: 45px;
+    width: $tablet-container-width;
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .all-about-colony__switches-list {
+    width: 688px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .all-about-colony__switches-list::before {
+    top: 12px;
+    left: 15px;
+    width: 658px;
+    height: 3px;
+  }
+
+  .all-about-colony__switches-item--active .all-about-colony__switches-link {
+    margin-right: 201px;
+    background-color: #e12457;
+  }
+
+  .all-about-colony__switches-item .all-about-colony__switches-link {
+    margin-bottom: 0;
+  }
+
+  .all-about-colony__switches-title-container {
+    top: 40px;
+    left: -2px;
+  }
+
+  .all-about-colony__switches-item:nth-of-type(2) .all-about-colony__switches-title-container {
+    top: 47px;
+    left: -4px;
+  }
+
+  .all-about-colony__switches-item:nth-of-type(3) .all-about-colony__switches-title-container {
+    top: 41px;
+    left: -3px;
+  }
+
+  .all-about-colony__switches-item:nth-of-type(4) .all-about-colony__switches-title-container {
+    top: 46px;
+    left: -4px;
+  }
+
+  .all-about-colony__switches-item:last-of-type .all-about-colony__switches-title-container {
+    top: 43px;
+    left: -5px;
+  }
+
+   .all-about-colony__info-container {
+    margin-top: 85px;
+    width: $tablet-container-width;
+  }
+
+  .all-about-colony__container .all-about-colony__info-container:nth-of-type(2),
+  .all-about-colony__container .all-about-colony__info-container:nth-of-type(3),
+  .all-about-colony__container .all-about-colony__info-container:nth-of-type(4),
+  .all-about-colony__container .all-about-colony__info-container:nth-of-type(5),
+  .all-about-colony__container .all-about-colony__info-container:nth-of-type(6) {
+    margin-top: 86px;
+  }
+
+  .all-about-colony__info-img-container {
+    margin-bottom: 32px;
+  }
+
+  .all-about-colony__text-paragraph {
+    margin-bottom: 36px;
+    line-height: 22px;
+  }
+
+  .all-about-colony__text-paragraph sup {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .all-about-colony {
+    margin-bottom: 48px;
+    width: 100%;
+  }
+
+  .all-about-colony__container {
+    width: $desktop-width;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .all-about-colony__headline {
+    margin-bottom: 52px;
+    width: $desktop-width;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .all-about-colony__switches-list  {
+    margin: 0;
+    margin-top: 7px;
+    padding: 0;
+    width: 16px;
+    flex-direction: column;
+  }
+
+  .all-about-colony__switches-list::before {
+    top: 16px;
+    left: 6px;
+    width: 3px;
+    height: 649px;
+  }
+
+  .all-about-colony__switches-item .all-about-colony__switches-link {
+    margin-bottom: 100px;
+  }
+
+  .all-about-colony__switches-item--active .all-about-colony__switches-link {
+    margin-right: 0;
+    margin-bottom: 301px;
+    background-color: #e12457;
+  }
+
+  .all-about-colony__switches-title-container {
+    top: 3px;
+    left: 31px;
+    display: flex;
+    transform: rotate(-90deg);
+  }
+
+  .all-about-colony__icon {
+    margin-right: 0;
+    transform: rotate(90deg);
+    order: 2;
+  }
+
+  .all-about-colony__switches-item:first-of-type .all-about-colony__switches-title-container,
+  .all-about-colony__switches-item:nth-of-type(2) .all-about-colony__switches-title-container,
+  .all-about-colony__switches-item:nth-of-type(3) .all-about-colony__switches-title-container,
+  .all-about-colony__switches-item:nth-of-type(4) .all-about-colony__switches-title-container,
+  .all-about-colony__switches-item:last-of-type .all-about-colony__switches-title-container {
+    top: -4px;
+    left: 37px;
+  }
+
+  .all-about-colony__switches-item--active .all-about-colony__switches-title-text {
+    display: none;
+  }
+
+  .all-about-colony__info-container {
+    width: 986px;
+  }
+
+  .all-about-colony__container .all-about-colony__info-container:nth-of-type(2),
+  .all-about-colony__container .all-about-colony__info-container:nth-of-type(3),
+  .all-about-colony__container .all-about-colony__info-container:nth-of-type(4),
+  .all-about-colony__container .all-about-colony__info-container:nth-of-type(5),
+  .all-about-colony__container .all-about-colony__info-container:nth-of-type(6) {
+    margin-top: 0;
+  }
+
+  .all-about-colony__info-img-container {
+    margin-bottom: 38px;
+  }
+
+  .all-about-colony__text-paragraph {
+    margin-bottom: 40px;
+  }
+}

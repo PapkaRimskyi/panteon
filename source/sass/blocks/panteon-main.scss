@@ -1,16 +1,16 @@
 .panteon-main {
-  width: 320px;
+  width: $mobile-width;
 }
 
 @media (min-width: $tablet-width) {
   .panteon-main {
-    width: 765px;
+    width: $tablet-width;
   }
 }
 
 @media (min-width: $desktop-width) {
   .panteon-main {
     width: 100%;
-    max-width: 1600px;
+    max-width: $desktop-max-width;
   }
 }

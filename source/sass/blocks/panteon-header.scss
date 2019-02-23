@@ -1,18 +1,18 @@
 .panteon-header {
   margin-bottom: 41px;
-  width: 320px;
-  background-repeat: no-repeat;
+  width: $mobile-width;
 }
 
 .panteon-header__container {
+  background-color: #ac1c4a;
   background-image: url("../img/filter320px.jpg");
   background-repeat: no-repeat;
 }
 
 @media (min-width: $tablet-width) {
   .panteon-header {
-    margin-bottom: 49px;
-    width: 765px;
+    margin-bottom: 48px;
+    width: $tablet-width;
   }
 
   .panteon-header__container {
@@ -24,7 +24,7 @@
   .panteon-header {
     margin-bottom: 77px;
     width: 100%;
-    max-width: 1600px;
+    max-width: $desktop-max-width;
   }
 
   .panteon-header__container {

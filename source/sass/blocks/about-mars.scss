@@ -6,23 +6,24 @@
 }
 
 .about-mars__container {
-  margin: 0 auto;
+  margin: $margin-auto;
   padding-bottom: 262px;
   margin-left: 17px;
-  width: 290px;
+  width: $mobile-container-width;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .about-mars__headline {
-  margin: 0 auto;
+  margin: $margin-auto;
   margin-bottom: 25px;
-  width: 290px;
+  width: $mobile-container-width;
   font-size: 36px;
   font-weight: 700;
   line-height: 41px;
-  color: #e12457;
+  color: $red-color;
+  word-wrap: break-word;
 }
 
 .about-mars__info-headline {
@@ -30,8 +31,8 @@
   margin-bottom: 23px;
   font-size: 24px;
   font-weight: 700;
-  line-height: 24px;
-  color: #000000;
+  color: $black-color;
+  word-wrap: break-word;
 }
 
 .about-mars__info-headline--letter-spacing {
@@ -42,8 +43,8 @@
 .about-mars__paragraph {
   margin: 0;
   font-size: 14px;
-  line-height: 24px;
   color: #4c4c4c;
+  word-wrap: break-word;
 }
 
 .about-mars__paragraph--margin {

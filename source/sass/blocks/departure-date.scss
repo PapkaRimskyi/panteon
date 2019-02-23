@@ -1,0 +1,234 @@
+.departure-date {
+  margin-bottom: 56px;
+  width: $mobile-width;
+}
+
+.departure-date__headline {
+  margin: $margin-auto;
+  margin-bottom: 27px;
+  padding-top: 46px;
+  width: 294px;
+  font-size: 36px;
+  line-height: 42px;
+  color: $white-color;
+  word-wrap: break-word;
+}
+
+.departure-date__container {
+  width: $mobile-width;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.departure-date__info-container {
+  margin: $margin-auto;
+  margin-bottom: 46px;
+  width: $mobile-container-width;
+}
+
+.departure-date__info-paragraph,
+.departure-date__info-criteria-link {
+  color: $white-color;
+}
+
+.departure-date__info-paragraph {
+  margin-top: 0;
+  margin-bottom: 24px;
+  word-wrap: break-word;
+}
+
+.departure-date__info-paragraph:last-of-type {
+  margin-bottom: 19px;
+}
+
+.departure-date__info-paragraph--mobile-display {
+  display: none;
+}
+
+.departure-date__info-criteria-link {
+  border-bottom: 1px solid $white-color;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.departure-date__info-criteria-link:hover {
+  opacity: 0.6;
+}
+
+.departure-date__info-criteria-link:active {
+  opacity: 0.3;
+}
+
+.departure-date__form-container {
+  width: $mobile-width;
+  order: 2;
+  background-color: #3e275e;
+  background-image: url("../img/departure-date__form-containerBG320px.png");
+  background-repeat: no-repeat;
+}
+
+.departure-date__form {
+  margin: $margin-auto;
+  padding-top: 55px;
+  padding-bottom: 65px;
+  width: 258px;
+}
+
+.departure-date__form-headline {
+  margin-top: 0;
+  margin-bottom: 34px;
+  font-size: 23px;
+  color: $white-color;
+  word-wrap: break-word;
+}
+
+.departure-date__input-container {
+  margin-bottom: 18px;
+}
+
+.departure-date__input {
+  margin-bottom: 37px;
+  padding: 0 8px 9px 0;
+  width: 249px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: $white-color;
+  border: none;
+  border-bottom: 1px solid $white-color;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.departure-date__input--padding-left {
+  padding-left: 8px;
+}
+
+.departure-date__input::placeholder {
+  color: $white-color;
+}
+
+.departure-date__button-submit {
+  padding: 19px 0 19px 0;
+  width: 253px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 28px 2px $white-color;
+}
+
+.departure-date__button-submit:hover {
+  background-color: #665482;
+  color: $white-color;
+  box-shadow: 0 0 0 2px $white-color inset;
+}
+
+.departure-date__button-submit:active {
+  background-color: #665482;
+  color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -2px 6px -2px $white-color inset;
+}
+
+@media (min-width: $tablet-width) {
+  .departure-date {
+    margin: $margin-auto;
+    margin-bottom: 85px;
+    width: $tablet-container-width;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .departure-date__headline {
+    margin-bottom: 55px;
+    padding-top: 75px;
+    width: 711px;
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+  .departure-date__container {
+    width: $tablet-container-width;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .departure-date__form-container {
+    margin-top: 7px;
+    width: 345px;
+    order: 0;
+    background-image: url("../img/departure-date__form-containerBG765px.png")
+  }
+
+  .departure-date__form,
+  .departure-date__input {
+    width: 246px;
+  }
+
+  .departure-date__button-submit {
+    width: 252px;
+  }
+
+  .departure-date__info-container {
+    margin: 0;
+    width: 344px;
+  }
+
+  .departure-date__info-paragraph {
+    margin-bottom: 49px;
+  }
+
+  .departure-date__info-paragraph--margin-bottom {
+    margin-bottom: 25px;
+  }
+
+  .departure-date__info-paragraph--mobile-display {
+    display: inline;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .departure-date {
+    margin-bottom: 110px;
+    width: $desktop-width;
+  }
+
+  .departure-date__headline {
+    margin: 0;
+    margin-bottom: 61px;
+    padding-top: 117px;
+    width: 1073px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .departure-date__container {
+    margin-top: 7px;
+    width: $desktop-width;
+  }
+
+  .departure-date__form-container {
+    margin-top: 0;
+    width: 390px;
+    background-image: url("../img/departure-date__form-containerBG1600px.png");
+  }
+
+  .departure-date__form {
+    padding-top: 65px;
+    padding-bottom: 75px;
+    width: 253px;
+  }
+
+  .departure-date__info-container {
+    margin-top: 2px;
+    width: 679px;
+  }
+
+  .departure-date__info-paragraph {
+    margin-bottom: 24px;
+  }
+
+  .departure-date__info-paragraph--desktop-display {
+    display: none;
+  }
+}

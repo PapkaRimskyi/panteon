@@ -3,25 +3,28 @@
 }
 
 .from-idea-to-realize__container {
-  margin: 0 auto;
-  width: 290px;
+  margin: $margin-auto;
+  width: $mobile-container-width;
 }
 
 .from-idea-to-realize__headline {
   margin-top: 5px;
-  width: 252px;
+  width: 254px;
   font-size: 36px;
   line-height: 44px;
   color: #e12457;
+  word-wrap: break-word;
 }
 
 .from-idea-to-realize__who-is-elon {
   margin-top: 0;
   margin-bottom: 29px;
+  word-wrap: break-word;
 }
 
 .from-idea-to-realize__about-elon {
   margin-top: 0;
+  word-wrap: break-word;
 }
 
 .from-idea-to-realize__about-elon--margin-photo {
@@ -30,7 +33,7 @@
 
 .from-idea-to-realize__elon-photo-container {
   position: relative;
-  margin: 0 auto;
+  margin: $margin-auto;
   margin-left: 42px;
   margin-bottom: 23px;
   width: 165px;
@@ -57,6 +60,7 @@
   margin-bottom: 37px;
   font-size: 18px;
   color: #e12457;
+  word-wrap: break-word;
 }
 
 .from-idea-to-realize__elon-mask-quote::before,
@@ -85,7 +89,7 @@
   }
 
   .from-idea-to-realize__container {
-    width: 720px;
+    width: $tablet-container-width;
     display: flex;
     flex-wrap: wrap;
   }
@@ -127,7 +131,7 @@
 
   .from-idea-to-realize__container {
     position: relative;
-    width: 1140px;
+    width: $desktop-width;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;

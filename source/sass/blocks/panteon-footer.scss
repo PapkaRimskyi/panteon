@@ -1,0 +1,22 @@
+.panteon-footer {
+  width: $mobile-width;
+  background-color: #531e62;
+  background-image: url("../img/panteon-footerBG320px.png");
+  background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+  .panteon-footer {
+    width: $tablet-width;
+    background-image: url("../img/panteon-footerBG765px.png");
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .panteon-footer {
+    width: 100%;
+    max-width: $desktop-max-width;
+    background-image: url("../img/panteon-footerBG765px.png");
+    background-size: 100% 100%;
+  }
+}

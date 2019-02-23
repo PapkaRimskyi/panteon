@@ -1,0 +1,17 @@
+.button {
+  width: 341px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #c2529a;
+  background-color: $white-color;
+  text-align: center;
+  border-radius: 28px;
+  text-decoration: none;
+}
+
+@media (min-width: $tablet-width) {
+  .button {
+    width: 200px;
+    border-radius: 29px;
+  }
+}
